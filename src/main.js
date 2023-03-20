@@ -15,13 +15,8 @@ async function loadRegistry() {
   )
 }
 
-function closeSplashscreen() {
-  invoke("close_splashscreen")
-  loadRegistry()
-}
-
 window.addEventListener("DOMContentLoaded", () => {
-  closeSplashscreen()
+  loadRegistry()
   greetInputEl = document.querySelector("#greet-input");
   greetMsgEl = document.querySelector("#greet-msg");
   document

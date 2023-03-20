@@ -59,6 +59,14 @@
         "visible": false
       },
       {
+        "width": 800,
+        "height": 600,
+        "decorations": true,
+        "url": "registration.html",
+        "label": "registration",
+        "visible": false
+      },
+      {
          "width": 800,
          "height": 600,
          "decorations": false,
